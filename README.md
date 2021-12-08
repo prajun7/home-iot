@@ -8,6 +8,9 @@
 
 # CS499: Smarthome Project
 
+I reuploaded the files into my GitHub as our original files were in GitLab and were private.
+- Original GitLab : https://gitlab.cs.uab.edu/CS499F2021/Team4/homeIoT
+
 # Description: This project is a 6-person group effort to create an application for a smart house.
 
 # Roles
@@ -110,5 +113,7 @@
 - All 15 light sources in the house were going to have their own object properties and randomized events, but the process was so repetitive and messy in the code that they were eventually combined into one object and the stats was multiplied simply by 15. This provided some variance in the simulation each time.
 	- Similar story with the exhaust fans, but their use is based on the number of baths and showers per day
 - Real time simulation for the HVAC temperature change system with speed-up feature. Unable to implement due to time constraints and difficulty working with Javascript trying to simultaneously running a timer and updating to database.
+
+It is not an individual project. Thank you to all the team members for your contribution.
 
 
