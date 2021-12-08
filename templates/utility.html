@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description">
+  <meta name="author" content="Webpixels">
+  <title>Smart Home </title>
+  <!-- Smart Home Tab Icon -->
+  <link rel="icon" href="../static/img/icons/appIcon/smartHome.png" type="image/png">
+
+  <!-- Home CSS -->
+  <link rel="stylesheet" href="../static/css/home.css" >
+  <!-- Utility CSS -->
+  <link rel="stylesheet" href="../static/css/utility.css" >
+    <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="../static/libs/@fortawesome/fontawesome-free/css/all.min.css"><!-- Page CSS -->
+  <link rel="stylesheet" href="../static/libs/fullcalendar/dist/fullcalendar.min.css">
+  <!-- Purpose CSS -->
+  <link rel="stylesheet" href="../static/css/home.css" >
+</head>
+
+<!-- Scripts -->
+<!-- Core JS - includes jquery, bootstrap, popper, in-view and sticky-kit -->
+<script src="../static/js/home.core.js"></script>
+<!-- Page JS -->
+<script src="../static/libs/moment/min/moment.min.js"></script>
+<script src="../static/libs/fullcalendar/dist/fullcalendar.min.js"></script>
+<!-- Purpose JS -->
+<script src="../static/js/home.js"></script>
+
+
+                                <!-- https://htmlcolorcodes.com/ Color website == edit background color # -->
+<body class="application application-offset"style="background-color: #D3D3D3;">
+  <div class="container-fluid container-application">
+
+  <!-- Content -->
+  <div class="main-content position-relative">
+    <!-- Main nav -->   <!-- do not remove 'navbar navbar-horizontal' the rest can be changed -->
+    <nav class="navbar navbar-horizontal navbar-expand-lg bg-dark" style="background-color: #6C6C6C;" id="navbar-main" >
+      <div class="container-fluid">
+        <!-- Brand + Toggler (for mobile devices) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar nav -->
+        <div class="collapse navbar-collapse navbar-collapse-fade" id="navbar-main-collapse">
+          <ul class="navbar-nav align-items-lg-center">
+            <!-- Overview  -->
+            <li class="nav-item d-lg-none ">
+              <a class="nav-link" href="{{url_for('home')}}">
+                Overview
+              </a>
+            </li>
+            <li class="border-top opacity-2 my-2"></li>
+            <!-- Home  -->
+            <li class="nav-item ">
+              <a class="nav-link pl-lg-0" href="{{url_for('home')}}">
+                Home
+              </a>
+            </li>
+            <!-- Graphs  -->
+            <li class="nav-item ">
+              <a class="nav-link pl-lg-0" href="{{url_for('graphs')}}">
+                Graphs
+              </a>
+            </li>
+            <!-- Utility  -->
+            <li class="nav-item ">
+              <a class="nav-link pl-lg-0" href="{{url_for('utility')}}">
+                Utility
+              </a>
+            </li>
+            <li class="border-top opacity-2 my-2"></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Page Content -->
+      <div class="page-content">
+        <!-- Page title -->
+        <div class="row">
+          <div class="col-xl-8 col-md-8">
+            <div class="card card-fluid">
+              <div class="card-header">
+                <h6 class="mb-0">Floor Overview</h6>
+              </div>
+
+              <div class="card-body containMe">
+
+                <!-- Chart -->
+                <!-- insert Floor Plan here -->
+                <img alt="Image placeholder" src="../static/img/theme/light/PROJECTFLOORPLAN.png" width="800" height="600">
+
+                <!-- Kitchen Toggle -->
+                <div class="conainer1">
+
+
+                <button type="button" class="btn btn-secondary dropdown-toggle kitchenButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kitchen</button>
+                <div class="dropdown-menu">
+                <form method="post" action="/utility">
+                  <input class="dropdown-item"   name="oh7"     value="Overhead Light"     type="submit" href="#"></a> <!-- overhead light 7 -->
+                  <input class="dropdown-item"   name="door2"   value="Back Door Toggle"   type="submit" href="#"></a>
+                  <input class="dropdown-item"   name="door2_2" value="Kitchen to Garage"  type="submit" href="#"></a>
+                  <input class="dropdown-item"   name="window12" value="Window"  type="submit" href="#"></a>
+                  <input class="dropdown-item"   name="window13" value="Window"  type="submit" href="#"></a>
+                </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Living Room Toggle -->
+                <div class="container2">
+                <button type="button" class="btn btn-secondary dropdown-toggle livingRoomButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Living Room</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                  <input class="dropdown-item" name="oh6"   value="Overhead Light" type="submit" href="#"></input> <!-- overhead light 6 -->
+                  <input class="dropdown-item" name="lamp7" value="Lamp"           type="submit" href="#"></input> <!-- lamp 7 -->
+                  <input class="dropdown-item" name="lamp8" value="Lamp"           type="submit" href="#"></input> <!-- lamp 8 -->
+                  <input class="dropdown-item" name="door1" value="Door Toggle"    type="submit" href="#"></input>
+                  <input class="dropdown-item" name="window7" value="Window"    type="submit" href="#"></input>
+                  <input class="dropdown-item" name="window8" value="Window"    type="submit" href="#"></input>
+                  <input class="dropdown-item" name="window9" value="Window"    type="submit" href="#"></input>
+
+                </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Garage Toggle -->
+                <div class="container3">
+                <button type="button" class="btn btn-secondary dropdown-toggle garageButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Garage</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                  <input class="dropdown-item"   name="door3"   value="Door 1 Toggle" type="submit" href="#"></input> <!-- Garage Door 1 -->
+                  <input class="dropdown-item"   name="door3_2" value="Door 2 Toggle" type="submit" href="#"></input> <!-- Garage Door 2 -->
+                </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+
+                <!-- Laundry Room Toggle -->
+                <div class="container4">
+                <button type="button" class="btn btn-secondary dropdown-toggle laudryRoomButtonUtil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laundry Room</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item"   name="door4" type="submit" href="#">Door Toggle</a>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Dining Room Toggle -->
+                <div class="container5">
+                <button type="button" class="btn btn-secondary dropdown-toggle diningRoomButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dining Room</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Light On</a>
+                  <a class="dropdown-item" href="#">Light Off</a>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Bedroom 1 Toggle -->
+                <div class="container6">
+                <button type="button" class="btn btn-secondary dropdown-toggle bedroomButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bedroom</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                    <input class="dropdown-item" name="oh2"   type="submit" value="Overhead Light" href="#"></input> <!-- overhead light 2 -->
+                    <input class="dropdown-item" name="lamp3" type="submit" value="Lamp" href="#"></input> <!-- lamp 3 -->
+                    <input class="dropdown-item" name="lamp4" type="submit" value="Lamp" href="#"></input> <!-- lamp 4 -->
+                    <input class="dropdown-item" name="door5" type="submit" value="Door Toggle" href="#"></input>
+                    <input class="dropdown-item" name="window3" type="submit" value="Window" href="#"></input>
+                    <input class="dropdown-item" name="window4" type="submit" value="Window" href="#"></input>
+                </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Bathroom 1 Toggle -->
+                <div class="container7">
+                <button type="button" class="btn btn-secondary dropdown-toggle bathroomButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bathroom</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                  <input class="dropdown-item" name="oh4"   type="submit" value="Overhead Light" href="#"></input> <!-- overhead light 4 -->
+                  <input class="dropdown-item" name="door6" type="submit" value="Door Toggle"    href="#"></input>
+                  <input class="dropdown-item" name="window10" type="submit" value="Window"      href="#"></input>
+                 </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Bedroom 2 Toggle -->
+                <div class="container8">
+                <button type="button" class="btn btn-secondary dropdown-toggle bedroomButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bedroom</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                    <input class="dropdown-item" name="oh3"   type="submit" value="Overhead Light" href="#"></input> <!-- overhead light 3 -->
+                    <input class="dropdown-item" name="lamp5" type="submit" value="Lamp" href="#"></input> <!-- lamp 5 -->
+                    <input class="dropdown-item" name="lamp6" type="submit" value="Lamp" href="#"></input> <!-- lamp 6 -->
+                    <input class="dropdown-item" name="door7" type="submit" value="Door Toggle" href="#"></input>
+                    <input class="dropdown-item" name="window5" type="submit" value="Window" href="#"></input>
+                    <input class="dropdown-item" name="window6" type="submit" value="Window" href="#"></input>
+                 </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Master Bedroom Toggle -->
+                <div class="container9">
+                <button type="button" class="btn btn-secondary dropdown-toggle masterBedroomButtonUtil" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Master Bedroom</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                    <input class="dropdown-item" name="oh1"   type="submit" value="Overhead Light" href="#"></input> <!-- overhead light 1 -->
+                    <input class="dropdown-item" name="lamp1" type="submit" value="Lamp" href="#"></input> <!-- lamp 1 -->
+                    <input class="dropdown-item" name="lamp2" type="submit" value="Lamp" href="#"></input> <!-- lamp 2 -->
+                    <input class="dropdown-item" name="door8" type="submit" value="Door Toggle" href="#"></input>
+                    <input class="dropdown-item" name="window1" type="submit" value="Window" href="#"></input>
+                    <input class="dropdown-item" name="window2" type="submit" value="Window" href="#"></input>
+                 </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Bathroom 2 Toggle -->
+                <div class="container10">
+                <button type="button" class="btn btn-secondary dropdown-toggle bathroomButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bathroom</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                  <input class="dropdown-item" name="oh5"   type="submit" value="Overhead Light" href="#"></input> <!-- overhead light 5 -->
+                  <input class="dropdown-item" name="door9" type="submit" value="Door Toggle"    href="#"></input>
+                  <input class="dropdown-item" name="window11" type="submit" value="Window" href="#"></input>
+                 </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Utility Toggle -->
+                <div class="container11">
+                <button type="button" class="btn btn-secondary dropdown-toggle utilityButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Utlity</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item"   name="door10" type="submit" href="#">Door Toggle</a>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+                <!-- Front Door Toggle -->
+                <div class="container12">
+                <button type="button" class="btn btn-secondary dropdown-toggle frontDoorButton"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Entrance</button>
+                <div class="dropdown-menu">
+                  <form method="post" action="/utility">
+                  <input class="dropdown-item" name="door11" value="Door Toggle" type="submit" href="#"></input> <!-- Front Door Toggle -->
+                  </form>
+                  <div class="dropdown-divider"></div>
+                  <!-- <a class="dropdown-item" href="#">Separated link</a> -->
+                </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-8">
+            <div class="card card">
+              <div class="card-body text-center d-flex flex-column justify-content-center">
+                <h5 class="mb-4">Expenses</h5>
+                <div id="accordion-1" class="accordion accordion-stacked">
+
+          <!-- Accordion card 1 -->
+          <div class="card">
+              <div class="card-header py-4" id="heading-1-1" data-toggle="collapse" role="button" data-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
+                  <!-- <h6 class="mb-0"><i class="fas fa-file-pdf mr-3"></i>Electricity Cost</h6> -->
+                  <h6 class="mb-0"><i ></i>Electricity</h6>
+              </div>
+              <div id="collapse-1-1" class="collapse" aria-labelledby="heading-1-1" data-parent="#accordion-1">
+                  <div class="card-body">
+                      <p>${{elecCost}}</p>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Accordion card 2 -->
+          <div class="card">
+              <div class="card-header py-4" id="heading-1-2" data-toggle="collapse" role="button" data-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
+                  <h6 class="mb-0"><i ></i>Water</h6>
+              </div>
+              <div id="collapse-1-2" class="collapse" aria-labelledby="heading-1-2" data-parent="#accordion-1">
+                  <div class="card-body">
+                      <p>${{waterCost}}</p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+<!--      
+                <link rel="stylesheet" href="../static/css/thermo.css">
+                <script src="../static/js/thermo.js"></script>
+-->
+                  </div>
+                </div>
+              </div>
+
+
+    <!--
+    -->
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>

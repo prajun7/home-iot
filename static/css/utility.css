@@ -1,0 +1,205 @@
+/* Container needed to position the button. Adjust the width as needed */
+.containMe {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+/* .containMe img {
+  width: 100%;
+  height: auto;
+} */
+
+/* Style the button and place it in the middle of the container/image */
+
+/* Living Room Toggle */
+.containMe .livingRoomButton {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  transform: scale(0.65) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Kitchen Toggle */
+.containMe .kitchenButton {
+  position: absolute;
+  top: 22%;
+  left: 75%;
+  transform: scale(0.75) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Garage Toggle */
+.containMe .garageButton {
+  position: absolute;
+  top: 27%;
+  left: 122%;
+  transform: scale(0.75) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Laundry Room Toggle */
+.containMe .laudryRoomButtonUtil {
+  position: absolute;
+  top: 22%;
+  left: 148%;
+  transform: scale(0.65) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Dining Room Toggle */
+.containMe .diningRoomButton {
+  position: absolute;
+  top: 40%;
+  left: 62%;
+  transform: scale(0.55) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* 1st Bedroom Toggle */
+.containMe .bedroomButton1 {
+  position: absolute;
+  top: 67%;
+  left: 60%;
+  transform: scale(0.75) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Bathroom 1 Toggle */
+.containMe .bathroomButton1 {
+  position: absolute;
+  top: 67%;
+  left: 89%;
+  transform: scale(0.60) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* 2nd Bedroom Toggle */
+.containMe .bedroomButton2 {
+  position: absolute;
+  top: 67%;
+  left: 123%;
+  transform: scale(0.75) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Master Bedroom Toggle */
+.containMe .masterBedroomButtonUtil {
+  position: absolute;
+  top: 58%;
+  left: 147%;
+  transform: scale(0.53) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Bathroom 2 Toggle */
+.containMe .bathroomButton2 {
+  position: absolute;
+  top: 40%;
+  left: 150%;
+  transform: scale(0.53) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Utility Toggle */
+.containMe .utilityButton {
+  position: absolute;
+  top: 36%;
+  left: 120%;
+  transform: scale(0.50) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Front Door Toggle */
+.containMe .frontDoorButton {
+  position: absolute;
+  top: 74%;
+  left: 10%;
+  transform: scale(0.50) translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6e00ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

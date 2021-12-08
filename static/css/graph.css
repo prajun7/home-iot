@@ -1,0 +1,16 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+font-family: Roboto, sans-serif;
+}
+
+#graph {
+  max-width: 800px;
+  margin: 35px auto;
+}
+
+#bars {
+max-width: 350px;
+margin: 15px auto;
+}

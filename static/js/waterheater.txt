@@ -1,0 +1,682 @@
+1, Friday, 1st Bath: 30, 0.10
+1, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+1, Friday, 1st Bath: 30, 0.10
+1, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+1, Friday, 2nd Shower: 25, 0.08
+1, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+1, Friday, 1st Shower: 25, 0.08
+1, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+2, Saturday, 1st Bath: 30, 0.10
+2, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+2, Saturday, 1st Bath: 30, 0.10
+2, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+2, Saturday, 1st Bath: 30, 0.10
+2, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+2, Saturday, 1st Shower: 25, 0.08
+2, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+2, Saturday, 2nd Shower: 25, 0.08
+2, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+2, Saturday, 1st Shower: 25, 0.08
+2, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+2, Saturday, Dish Washer: 6, 0.02
+2, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+2, Saturday, Clothes Washer: 20, 0.07
+2, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+3, Sunday, 1st Bath: 30, 0.10
+3, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+3, Sunday, 1st Bath: 30, 0.10
+3, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+3, Sunday, 2nd Bath: 30, 0.10
+3, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+3, Sunday, 1st Shower: 25, 0.08
+3, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+3, Sunday, 1st Shower: 25, 0.08
+3, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+3, Sunday, 1st Shower: 25, 0.08
+3, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+3, Sunday, Dish Washer: 6, 0.02
+3, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+3, Sunday, Clothes Washer: 20, 0.07
+3, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+4, Monday, 2nd Bath: 30, 0.10
+4, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+4, Monday, 1st Bath: 30, 0.10
+4, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+4, Monday, 2nd Shower: 25, 0.08
+4, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+4, Monday, 1st Shower: 25, 0.08
+4, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+5, Tuesday, 2nd Bath: 30, 0.10
+5, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+5, Tuesday, 1st Bath: 30, 0.10
+5, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+5, Tuesday, 1st Shower: 25, 0.08
+5, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+5, Tuesday, 2nd Shower: 25, 0.08
+5, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+5, Tuesday, Dish Washer: 6, 0.02
+5, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+5, Tuesday, Clothes Washer: 20, 0.07
+5, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+6, Wednesday, 2nd Bath: 30, 0.10
+6, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+6, Wednesday, 2nd Bath: 30, 0.10
+6, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+6, Wednesday, 2nd Shower: 25, 0.08
+6, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+6, Wednesday, 1st Shower: 25, 0.08
+6, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+7, Thursday, 2nd Bath: 30, 0.10
+7, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+7, Thursday, 1st Bath: 30, 0.10
+7, Thursday, 1st Bath Heater: 78.0, 19.5, 0.70
+7, Thursday, 2nd Shower: 25, 0.08
+7, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+7, Thursday, 1st Shower: 25, 0.08
+7, Thursday, 1st Shower Heater: 65.0, 16.25, 0.58
+7, Thursday, Dish Washer: 6, 0.02
+7, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+7, Thursday, Clothes Washer: 20, 0.07
+7, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+8, Friday, 1st Bath: 30, 0.10
+8, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+8, Friday, 1st Bath: 30, 0.10
+8, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+8, Friday, 2nd Shower: 25, 0.08
+8, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+8, Friday, 2nd Shower: 25, 0.08
+8, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+9, Saturday, 2nd Bath: 30, 0.10
+9, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+9, Saturday, 2nd Bath: 30, 0.10
+9, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+9, Saturday, 1st Bath: 30, 0.10
+9, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+9, Saturday, 2nd Shower: 25, 0.08
+9, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+9, Saturday, 2nd Shower: 25, 0.08
+9, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+9, Saturday, 1st Shower: 25, 0.08
+9, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+9, Saturday, Dish Washer: 6, 0.02
+9, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+9, Saturday, Clothes Washer: 20, 0.07
+9, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+10, Sunday, 2nd Bath: 30, 0.10
+10, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+10, Sunday, 1st Bath: 30, 0.10
+10, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+10, Sunday, 1st Bath: 30, 0.10
+10, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+10, Sunday, 1st Shower: 25, 0.08
+10, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+10, Sunday, 1st Shower: 25, 0.08
+10, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+10, Sunday, 1st Shower: 25, 0.08
+10, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+10, Sunday, Dish Washer: 6, 0.02
+10, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+10, Sunday, Clothes Washer: 20, 0.07
+10, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+11, Monday, 1st Bath: 30, 0.10
+11, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+11, Monday, 2nd Bath: 30, 0.10
+11, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+11, Monday, 2nd Shower: 25, 0.08
+11, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+11, Monday, 2nd Shower: 25, 0.08
+11, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+12, Tuesday, 1st Bath: 30, 0.10
+12, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+12, Tuesday, 2nd Bath: 30, 0.10
+12, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+12, Tuesday, 1st Shower: 25, 0.08
+12, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+12, Tuesday, 1st Shower: 25, 0.08
+12, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+12, Tuesday, Dish Washer: 6, 0.02
+12, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+12, Tuesday, Clothes Washer: 20, 0.07
+12, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+13, Wednesday, 1st Bath: 30, 0.10
+13, Wednesday, 1st Bath Heater: 78.0, 19.5, 0.70
+13, Wednesday, 1st Bath: 30, 0.10
+13, Wednesday, 1st Bath Heater: 78.0, 19.5, 0.70
+13, Wednesday, 2nd Shower: 25, 0.08
+13, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+13, Wednesday, 2nd Shower: 25, 0.08
+13, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+14, Thursday, 2nd Bath: 30, 0.10
+14, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+14, Thursday, 1st Bath: 30, 0.10
+14, Thursday, 1st Bath Heater: 78.0, 19.5, 0.70
+14, Thursday, 2nd Shower: 25, 0.08
+14, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+14, Thursday, 2nd Shower: 25, 0.08
+14, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+14, Thursday, Dish Washer: 6, 0.02
+14, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+14, Thursday, Clothes Washer: 20, 0.07
+14, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+15, Friday, 1st Bath: 30, 0.10
+15, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+15, Friday, 1st Bath: 30, 0.10
+15, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+15, Friday, 1st Shower: 25, 0.08
+15, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+15, Friday, 2nd Shower: 25, 0.08
+15, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+16, Saturday, 1st Bath: 30, 0.10
+16, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+16, Saturday, 1st Bath: 30, 0.10
+16, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+16, Saturday, 1st Bath: 30, 0.10
+16, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+16, Saturday, 1st Shower: 25, 0.08
+16, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+16, Saturday, 1st Shower: 25, 0.08
+16, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+16, Saturday, 2nd Shower: 25, 0.08
+16, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+16, Saturday, Dish Washer: 6, 0.02
+16, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+16, Saturday, Clothes Washer: 20, 0.07
+16, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+17, Sunday, 1st Bath: 30, 0.10
+17, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+17, Sunday, 1st Bath: 30, 0.10
+17, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+17, Sunday, 2nd Bath: 30, 0.10
+17, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+17, Sunday, 1st Shower: 25, 0.08
+17, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+17, Sunday, 1st Shower: 25, 0.08
+17, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+17, Sunday, 1st Shower: 25, 0.08
+17, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+17, Sunday, Dish Washer: 6, 0.02
+17, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+17, Sunday, Clothes Washer: 20, 0.07
+17, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+18, Monday, 1st Bath: 30, 0.10
+18, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+18, Monday, 1st Bath: 30, 0.10
+18, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+18, Monday, 1st Shower: 25, 0.08
+18, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+18, Monday, 2nd Shower: 25, 0.08
+18, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+19, Tuesday, 1st Bath: 30, 0.10
+19, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+19, Tuesday, 2nd Bath: 30, 0.10
+19, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+19, Tuesday, 2nd Shower: 25, 0.08
+19, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+19, Tuesday, 2nd Shower: 25, 0.08
+19, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+19, Tuesday, Dish Washer: 6, 0.02
+19, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+19, Tuesday, Clothes Washer: 20, 0.07
+19, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+20, Wednesday, 1st Bath: 30, 0.10
+20, Wednesday, 1st Bath Heater: 78.0, 19.5, 0.70
+20, Wednesday, 1st Bath: 30, 0.10
+20, Wednesday, 1st Bath Heater: 78.0, 19.5, 0.70
+20, Wednesday, 2nd Shower: 25, 0.08
+20, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+20, Wednesday, 2nd Shower: 25, 0.08
+20, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+21, Thursday, 1st Bath: 30, 0.10
+21, Thursday, 1st Bath Heater: 78.0, 19.5, 0.70
+21, Thursday, 2nd Bath: 30, 0.10
+21, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+21, Thursday, 2nd Shower: 25, 0.08
+21, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+21, Thursday, 2nd Shower: 25, 0.08
+21, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+21, Thursday, Dish Washer: 6, 0.02
+21, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+21, Thursday, Clothes Washer: 20, 0.07
+21, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+22, Friday, 2nd Bath: 30, 0.10
+22, Friday, 2nd Bath Heater: 78.0, 19.5, 0.70
+22, Friday, 1st Bath: 30, 0.10
+22, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+22, Friday, 2nd Shower: 25, 0.08
+22, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+22, Friday, 1st Shower: 25, 0.08
+22, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+23, Saturday, 2nd Bath: 30, 0.10
+23, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+23, Saturday, 1st Bath: 30, 0.10
+23, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+23, Saturday, 1st Bath: 30, 0.10
+23, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+23, Saturday, 1st Shower: 25, 0.08
+23, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+23, Saturday, 2nd Shower: 25, 0.08
+23, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+23, Saturday, 1st Shower: 25, 0.08
+23, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+23, Saturday, Dish Washer: 6, 0.02
+23, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+23, Saturday, Clothes Washer: 20, 0.07
+23, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+24, Sunday, 2nd Bath: 30, 0.10
+24, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+24, Sunday, 2nd Bath: 30, 0.10
+24, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+24, Sunday, 2nd Bath: 30, 0.10
+24, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+24, Sunday, 2nd Shower: 25, 0.08
+24, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+24, Sunday, 1st Shower: 25, 0.08
+24, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+24, Sunday, 1st Shower: 25, 0.08
+24, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+24, Sunday, Dish Washer: 6, 0.02
+24, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+24, Sunday, Clothes Washer: 20, 0.07
+24, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+25, Monday, 2nd Bath: 30, 0.10
+25, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+25, Monday, 1st Bath: 30, 0.10
+25, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+25, Monday, 1st Shower: 25, 0.08
+25, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+25, Monday, 2nd Shower: 25, 0.08
+25, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+26, Tuesday, 2nd Bath: 30, 0.10
+26, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+26, Tuesday, 2nd Bath: 30, 0.10
+26, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+26, Tuesday, 1st Shower: 25, 0.08
+26, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+26, Tuesday, 1st Shower: 25, 0.08
+26, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+26, Tuesday, Dish Washer: 6, 0.02
+26, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+26, Tuesday, Clothes Washer: 20, 0.07
+26, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+27, Wednesday, 1st Bath: 30, 0.10
+27, Wednesday, 1st Bath Heater: 78.0, 19.5, 0.70
+27, Wednesday, 2nd Bath: 30, 0.10
+27, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+27, Wednesday, 2nd Shower: 25, 0.08
+27, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+27, Wednesday, 1st Shower: 25, 0.08
+27, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+28, Thursday, 2nd Bath: 30, 0.10
+28, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+28, Thursday, 1st Bath: 30, 0.10
+28, Thursday, 1st Bath Heater: 78.0, 19.5, 0.70
+28, Thursday, 2nd Shower: 25, 0.08
+28, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+28, Thursday, 1st Shower: 25, 0.08
+28, Thursday, 1st Shower Heater: 65.0, 16.25, 0.58
+28, Thursday, Dish Washer: 6, 0.02
+28, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+28, Thursday, Clothes Washer: 20, 0.07
+28, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+29, Friday, 1st Bath: 30, 0.10
+29, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+29, Friday, 1st Bath: 30, 0.10
+29, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+29, Friday, 1st Shower: 25, 0.08
+29, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+29, Friday, 1st Shower: 25, 0.08
+29, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+30, Saturday, 1st Bath: 30, 0.10
+30, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+30, Saturday, 1st Bath: 30, 0.10
+30, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+30, Saturday, 1st Bath: 30, 0.10
+30, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+30, Saturday, 2nd Shower: 25, 0.08
+30, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+30, Saturday, 1st Shower: 25, 0.08
+30, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+30, Saturday, 2nd Shower: 25, 0.08
+30, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+30, Saturday, Dish Washer: 6, 0.02
+30, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+30, Saturday, Clothes Washer: 20, 0.07
+30, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+31, Sunday, 2nd Bath: 30, 0.10
+31, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+31, Sunday, 2nd Bath: 30, 0.10
+31, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+31, Sunday, 2nd Bath: 30, 0.10
+31, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+31, Sunday, 2nd Shower: 25, 0.08
+31, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+31, Sunday, 2nd Shower: 25, 0.08
+31, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+31, Sunday, 1st Shower: 25, 0.08
+31, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+31, Sunday, Dish Washer: 6, 0.02
+31, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+31, Sunday, Clothes Washer: 20, 0.07
+31, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+32, Monday, 1st Bath: 30, 0.10
+32, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+32, Monday, 2nd Bath: 30, 0.10
+32, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+32, Monday, 1st Shower: 25, 0.08
+32, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+32, Monday, 2nd Shower: 25, 0.08
+32, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+33, Tuesday, 1st Bath: 30, 0.10
+33, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+33, Tuesday, 1st Bath: 30, 0.10
+33, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+33, Tuesday, 1st Shower: 25, 0.08
+33, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+33, Tuesday, 2nd Shower: 25, 0.08
+33, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+33, Tuesday, Dish Washer: 6, 0.02
+33, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+33, Tuesday, Clothes Washer: 20, 0.07
+33, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+34, Wednesday, 1st Bath: 30, 0.10
+34, Wednesday, 1st Bath Heater: 78.0, 19.5, 0.70
+34, Wednesday, 2nd Bath: 30, 0.10
+34, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+34, Wednesday, 1st Shower: 25, 0.08
+34, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+34, Wednesday, 1st Shower: 25, 0.08
+34, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+35, Thursday, 1st Bath: 30, 0.10
+35, Thursday, 1st Bath Heater: 78.0, 19.5, 0.70
+35, Thursday, 2nd Bath: 30, 0.10
+35, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+35, Thursday, 1st Shower: 25, 0.08
+35, Thursday, 1st Shower Heater: 65.0, 16.25, 0.58
+35, Thursday, 1st Shower: 25, 0.08
+35, Thursday, 1st Shower Heater: 65.0, 16.25, 0.58
+35, Thursday, Dish Washer: 6, 0.02
+35, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+35, Thursday, Clothes Washer: 20, 0.07
+35, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+36, Friday, 2nd Bath: 30, 0.10
+36, Friday, 2nd Bath Heater: 78.0, 19.5, 0.70
+36, Friday, 1st Bath: 30, 0.10
+36, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+36, Friday, 1st Shower: 25, 0.08
+36, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+36, Friday, 2nd Shower: 25, 0.08
+36, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+37, Saturday, 1st Bath: 30, 0.10
+37, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+37, Saturday, 2nd Bath: 30, 0.10
+37, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+37, Saturday, 1st Bath: 30, 0.10
+37, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+37, Saturday, 2nd Shower: 25, 0.08
+37, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+37, Saturday, 2nd Shower: 25, 0.08
+37, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+37, Saturday, 2nd Shower: 25, 0.08
+37, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+37, Saturday, Dish Washer: 6, 0.02
+37, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+37, Saturday, Clothes Washer: 20, 0.07
+37, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+38, Sunday, 1st Bath: 30, 0.10
+38, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+38, Sunday, 2nd Bath: 30, 0.10
+38, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+38, Sunday, 2nd Bath: 30, 0.10
+38, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+38, Sunday, 2nd Shower: 25, 0.08
+38, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+38, Sunday, 1st Shower: 25, 0.08
+38, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+38, Sunday, 2nd Shower: 25, 0.08
+38, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+38, Sunday, Dish Washer: 6, 0.02
+38, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+38, Sunday, Clothes Washer: 20, 0.07
+38, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+39, Monday, 2nd Bath: 30, 0.10
+39, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+39, Monday, 1st Bath: 30, 0.10
+39, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+39, Monday, 1st Shower: 25, 0.08
+39, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+39, Monday, 1st Shower: 25, 0.08
+39, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+40, Tuesday, 1st Bath: 30, 0.10
+40, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+40, Tuesday, 1st Bath: 30, 0.10
+40, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+40, Tuesday, 2nd Shower: 25, 0.08
+40, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+40, Tuesday, 1st Shower: 25, 0.08
+40, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+40, Tuesday, Dish Washer: 6, 0.02
+40, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+40, Tuesday, Clothes Washer: 20, 0.07
+40, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+41, Wednesday, 2nd Bath: 30, 0.10
+41, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+41, Wednesday, 2nd Bath: 30, 0.10
+41, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+41, Wednesday, 2nd Shower: 25, 0.08
+41, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+41, Wednesday, 2nd Shower: 25, 0.08
+41, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+42, Thursday, 2nd Bath: 30, 0.10
+42, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+42, Thursday, 2nd Bath: 30, 0.10
+42, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+42, Thursday, 2nd Shower: 25, 0.08
+42, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+42, Thursday, 1st Shower: 25, 0.08
+42, Thursday, 1st Shower Heater: 65.0, 16.25, 0.58
+42, Thursday, Dish Washer: 6, 0.02
+42, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+42, Thursday, Clothes Washer: 20, 0.07
+42, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+43, Friday, 1st Bath: 30, 0.10
+43, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+43, Friday, 1st Bath: 30, 0.10
+43, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+43, Friday, 1st Shower: 25, 0.08
+43, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+43, Friday, 2nd Shower: 25, 0.08
+43, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+44, Saturday, 1st Bath: 30, 0.10
+44, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+44, Saturday, 2nd Bath: 30, 0.10
+44, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+44, Saturday, 2nd Bath: 30, 0.10
+44, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+44, Saturday, 1st Shower: 25, 0.08
+44, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+44, Saturday, 2nd Shower: 25, 0.08
+44, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+44, Saturday, 2nd Shower: 25, 0.08
+44, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+44, Saturday, Dish Washer: 6, 0.02
+44, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+44, Saturday, Clothes Washer: 20, 0.07
+44, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+45, Sunday, 1st Bath: 30, 0.10
+45, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+45, Sunday, 1st Bath: 30, 0.10
+45, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+45, Sunday, 1st Bath: 30, 0.10
+45, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+45, Sunday, 2nd Shower: 25, 0.08
+45, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+45, Sunday, 1st Shower: 25, 0.08
+45, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+45, Sunday, 1st Shower: 25, 0.08
+45, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+45, Sunday, Dish Washer: 6, 0.02
+45, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+45, Sunday, Clothes Washer: 20, 0.07
+45, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+46, Monday, 2nd Bath: 30, 0.10
+46, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+46, Monday, 2nd Bath: 30, 0.10
+46, Monday, 2nd Bath Heater: 78.0, 19.5, 0.70
+46, Monday, 1st Shower: 25, 0.08
+46, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+46, Monday, 1st Shower: 25, 0.08
+46, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+47, Tuesday, 2nd Bath: 30, 0.10
+47, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+47, Tuesday, 2nd Bath: 30, 0.10
+47, Tuesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+47, Tuesday, 1st Shower: 25, 0.08
+47, Tuesday, 1st Shower Heater: 65.0, 16.25, 0.58
+47, Tuesday, 2nd Shower: 25, 0.08
+47, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+47, Tuesday, Dish Washer: 6, 0.02
+47, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+47, Tuesday, Clothes Washer: 20, 0.07
+47, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+48, Wednesday, 2nd Bath: 30, 0.10
+48, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+48, Wednesday, 2nd Bath: 30, 0.10
+48, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+48, Wednesday, 2nd Shower: 25, 0.08
+48, Wednesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+48, Wednesday, 1st Shower: 25, 0.08
+48, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+49, Thursday, 2nd Bath: 30, 0.10
+49, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+49, Thursday, 2nd Bath: 30, 0.10
+49, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+49, Thursday, 2nd Shower: 25, 0.08
+49, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+49, Thursday, 1st Shower: 25, 0.08
+49, Thursday, 1st Shower Heater: 65.0, 16.25, 0.58
+49, Thursday, Dish Washer: 6, 0.02
+49, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+49, Thursday, Clothes Washer: 20, 0.07
+49, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+50, Friday, 2nd Bath: 30, 0.10
+50, Friday, 2nd Bath Heater: 78.0, 19.5, 0.70
+50, Friday, 1st Bath: 30, 0.10
+50, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+50, Friday, 1st Shower: 25, 0.08
+50, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+50, Friday, 2nd Shower: 25, 0.08
+50, Friday, 2nd Shower Heater: 65.0, 16.25, 0.58
+51, Saturday, 2nd Bath: 30, 0.10
+51, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+51, Saturday, 2nd Bath: 30, 0.10
+51, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+51, Saturday, 1st Bath: 30, 0.10
+51, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+51, Saturday, 2nd Shower: 25, 0.08
+51, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+51, Saturday, 1st Shower: 25, 0.08
+51, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+51, Saturday, 1st Shower: 25, 0.08
+51, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+51, Saturday, Dish Washer: 6, 0.02
+51, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+51, Saturday, Clothes Washer: 20, 0.07
+51, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+52, Sunday, 1st Bath: 30, 0.10
+52, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+52, Sunday, 2nd Bath: 30, 0.10
+52, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+52, Sunday, 1st Bath: 30, 0.10
+52, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+52, Sunday, 2nd Shower: 25, 0.08
+52, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+52, Sunday, 2nd Shower: 25, 0.08
+52, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+52, Sunday, 1st Shower: 25, 0.08
+52, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+52, Sunday, Dish Washer: 6, 0.02
+52, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+52, Sunday, Clothes Washer: 20, 0.07
+52, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+53, Monday, 1st Bath: 30, 0.10
+53, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+53, Monday, 1st Bath: 30, 0.10
+53, Monday, 1st Bath Heater: 78.0, 19.5, 0.70
+53, Monday, 1st Shower: 25, 0.08
+53, Monday, 1st Shower Heater: 65.0, 16.25, 0.58
+53, Monday, 2nd Shower: 25, 0.08
+53, Monday, 2nd Shower Heater: 65.0, 16.25, 0.58
+54, Tuesday, 1st Bath: 30, 0.10
+54, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+54, Tuesday, 1st Bath: 30, 0.10
+54, Tuesday, 1st Bath Heater: 78.0, 19.5, 0.70
+54, Tuesday, 2nd Shower: 25, 0.08
+54, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+54, Tuesday, 2nd Shower: 25, 0.08
+54, Tuesday, 2nd Shower Heater: 65.0, 16.25, 0.58
+54, Tuesday, Dish Washer: 6, 0.02
+54, Tuesday, Dish Washer Heater: 24.0, 6, 0.22
+54, Tuesday, Clothes Washer: 20, 0.07
+54, Tuesday, Clothes Washer Heater: 68.0, 17, 0.61
+55, Wednesday, 2nd Bath: 30, 0.10
+55, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+55, Wednesday, 2nd Bath: 30, 0.10
+55, Wednesday, 2nd Bath Heater: 78.0, 19.5, 0.70
+55, Wednesday, 1st Shower: 25, 0.08
+55, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+55, Wednesday, 1st Shower: 25, 0.08
+55, Wednesday, 1st Shower Heater: 65.0, 16.25, 0.58
+56, Thursday, 2nd Bath: 30, 0.10
+56, Thursday, 2nd Bath Heater: 78.0, 19.5, 0.70
+56, Thursday, 1st Bath: 30, 0.10
+56, Thursday, 1st Bath Heater: 78.0, 19.5, 0.70
+56, Thursday, 2nd Shower: 25, 0.08
+56, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+56, Thursday, 2nd Shower: 25, 0.08
+56, Thursday, 2nd Shower Heater: 65.0, 16.25, 0.58
+56, Thursday, Dish Washer: 6, 0.02
+56, Thursday, Dish Washer Heater: 24.0, 6, 0.22
+56, Thursday, Clothes Washer: 20, 0.07
+56, Thursday, Clothes Washer Heater: 68.0, 17, 0.61
+57, Friday, 1st Bath: 30, 0.10
+57, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+57, Friday, 1st Bath: 30, 0.10
+57, Friday, 1st Bath Heater: 78.0, 19.5, 0.70
+57, Friday, 1st Shower: 25, 0.08
+57, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+57, Friday, 1st Shower: 25, 0.08
+57, Friday, 1st Shower Heater: 65.0, 16.25, 0.58
+58, Saturday, 2nd Bath: 30, 0.10
+58, Saturday, 2nd Bath Heater: 78.0, 19.5, 0.70
+58, Saturday, 1st Bath: 30, 0.10
+58, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+58, Saturday, 1st Bath: 30, 0.10
+58, Saturday, 1st Bath Heater: 78.0, 19.5, 0.70
+58, Saturday, 1st Shower: 25, 0.08
+58, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+58, Saturday, 1st Shower: 25, 0.08
+58, Saturday, 1st Shower Heater: 65.0, 16.25, 0.58
+58, Saturday, 2nd Shower: 25, 0.08
+58, Saturday, 2nd Shower Heater: 65.0, 16.25, 0.58
+58, Saturday, Dish Washer: 6, 0.02
+58, Saturday, Dish Washer Heater: 24.0, 6, 0.22
+58, Saturday, Clothes Washer: 20, 0.07
+58, Saturday, Clothes Washer Heater: 68.0, 17, 0.61
+59, Sunday, 1st Bath: 30, 0.10
+59, Sunday, 1st Bath Heater: 78.0, 19.5, 0.70
+59, Sunday, 2nd Bath: 30, 0.10
+59, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+59, Sunday, 2nd Bath: 30, 0.10
+59, Sunday, 2nd Bath Heater: 78.0, 19.5, 0.70
+59, Sunday, 1st Shower: 25, 0.08
+59, Sunday, 1st Shower Heater: 65.0, 16.25, 0.58
+59, Sunday, 2nd Shower: 25, 0.08
+59, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+59, Sunday, 2nd Shower: 25, 0.08
+59, Sunday, 2nd Shower Heater: 65.0, 16.25, 0.58
+59, Sunday, Dish Washer: 6, 0.02
+59, Sunday, Dish Washer Heater: 24.0, 6, 0.22
+59, Sunday, Clothes Washer: 20, 0.07
+59, Sunday, Clothes Washer Heater: 68.0, 17, 0.61
+Water - Total gallons used: 8364 | Total water cost: 27.54
+Heater - Total time on: 22576.0 minutes | Total gallons heated: 5644 | Total usage: 1693.20 watt | Total heater cost: 203.18

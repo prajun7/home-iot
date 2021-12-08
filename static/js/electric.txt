@@ -1,0 +1,634 @@
+Day 1, Friday, Light Bulb: 705 minutes for 0.08
+Day 1, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 1, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 1, Friday, Living Room TV: 240 minutes for 0.31
+Day 1, Friday, Refrigerator: 1439 minutes for 0.43
+Day 1, Friday, Microwave: 20 minutes for 0.04
+Day 1, Friday, Stove: 15 minutes for 0.10
+Day 1, Friday, Oven: 45 minutes for 0.36
+Day 1, Friday, HVAC: 1439 minutes for 10.07
+Day 2, Saturday, Light Bulb: 3135 minutes for 0.38
+Day 2, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 2, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 2, Saturday, Living Room TV: 480 minutes for 0.61
+Day 2, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 2, Saturday, Microwave: 30 minutes for 0.07
+Day 2, Saturday, Stove: 30 minutes for 0.21
+Day 2, Saturday, Oven: 60 minutes for 0.48
+Day 2, Saturday, Dishwasher: 45 minutes for 0.16
+Day 2, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 2, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 2, Saturday, HVAC: 1439 minutes for 10.07
+Day 3, Sunday, Light Bulb: 7515 minutes for 0.90
+Day 3, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 3, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 3, Sunday, Living Room TV: 480 minutes for 0.61
+Day 3, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 3, Sunday, Microwave: 30 minutes for 0.07
+Day 3, Sunday, Stove: 30 minutes for 0.21
+Day 3, Sunday, Oven: 60 minutes for 0.48
+Day 3, Sunday, Dishwasher: 45 minutes for 0.16
+Day 3, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 3, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 3, Sunday, HVAC: 1439 minutes for 10.07
+Day 4, Monday, Light Bulb: 6345 minutes for 0.76
+Day 4, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 4, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 4, Monday, Living Room TV: 240 minutes for 0.31
+Day 4, Monday, Refrigerator: 1439 minutes for 0.43
+Day 4, Monday, Microwave: 20 minutes for 0.04
+Day 4, Monday, Stove: 15 minutes for 0.10
+Day 4, Monday, Oven: 45 minutes for 0.36
+Day 4, Monday, HVAC: 1439 minutes for 10.07
+Day 5, Tuesday, Light Bulb: 3690 minutes for 0.44
+Day 5, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 5, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 5, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 5, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 5, Tuesday, Microwave: 20 minutes for 0.04
+Day 5, Tuesday, Stove: 15 minutes for 0.10
+Day 5, Tuesday, Oven: 45 minutes for 0.36
+Day 5, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 5, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 5, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 5, Tuesday, HVAC: 1439 minutes for 10.07
+Day 6, Wednesday, Light Bulb: 3450 minutes for 0.41
+Day 6, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 6, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 6, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 6, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 6, Wednesday, Microwave: 20 minutes for 0.04
+Day 6, Wednesday, Stove: 15 minutes for 0.10
+Day 6, Wednesday, Oven: 45 minutes for 0.36
+Day 6, Wednesday, HVAC: 1439 minutes for 10.07
+Day 7, Thursday, Light Bulb: 6135 minutes for 0.74
+Day 7, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 7, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 7, Thursday, Living Room TV: 240 minutes for 0.31
+Day 7, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 7, Thursday, Microwave: 20 minutes for 0.04
+Day 7, Thursday, Stove: 15 minutes for 0.10
+Day 7, Thursday, Oven: 45 minutes for 0.36
+Day 7, Thursday, Dishwasher: 45 minutes for 0.16
+Day 7, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 7, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 7, Thursday, HVAC: 1439 minutes for 10.07
+Day 8, Friday, Light Bulb: 1560 minutes for 0.19
+Day 8, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 8, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 8, Friday, Living Room TV: 240 minutes for 0.31
+Day 8, Friday, Refrigerator: 1439 minutes for 0.43
+Day 8, Friday, Microwave: 20 minutes for 0.04
+Day 8, Friday, Stove: 15 minutes for 0.10
+Day 8, Friday, Oven: 45 minutes for 0.36
+Day 8, Friday, HVAC: 1439 minutes for 10.07
+Day 9, Saturday, Light Bulb: 1875 minutes for 0.22
+Day 9, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 9, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 9, Saturday, Living Room TV: 480 minutes for 0.61
+Day 9, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 9, Saturday, Microwave: 30 minutes for 0.07
+Day 9, Saturday, Stove: 30 minutes for 0.21
+Day 9, Saturday, Oven: 60 minutes for 0.48
+Day 9, Saturday, Dishwasher: 45 minutes for 0.16
+Day 9, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 9, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 9, Saturday, HVAC: 1439 minutes for 10.07
+Day 10, Sunday, Light Bulb: 5520 minutes for 0.66
+Day 10, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 10, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 10, Sunday, Living Room TV: 480 minutes for 0.61
+Day 10, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 10, Sunday, Microwave: 30 minutes for 0.07
+Day 10, Sunday, Stove: 30 minutes for 0.21
+Day 10, Sunday, Oven: 60 minutes for 0.48
+Day 10, Sunday, Dishwasher: 45 minutes for 0.16
+Day 10, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 10, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 10, Sunday, HVAC: 1439 minutes for 10.07
+Day 11, Monday, Light Bulb: 2670 minutes for 0.32
+Day 11, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 11, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 11, Monday, Living Room TV: 240 minutes for 0.31
+Day 11, Monday, Refrigerator: 1439 minutes for 0.43
+Day 11, Monday, Microwave: 20 minutes for 0.04
+Day 11, Monday, Stove: 15 minutes for 0.10
+Day 11, Monday, Oven: 45 minutes for 0.36
+Day 11, Monday, HVAC: 1439 minutes for 10.07
+Day 12, Tuesday, Light Bulb: 5565 minutes for 0.67
+Day 12, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 12, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 12, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 12, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 12, Tuesday, Microwave: 20 minutes for 0.04
+Day 12, Tuesday, Stove: 15 minutes for 0.10
+Day 12, Tuesday, Oven: 45 minutes for 0.36
+Day 12, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 12, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 12, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 12, Tuesday, HVAC: 1439 minutes for 10.07
+Day 13, Wednesday, Light Bulb: 1425 minutes for 0.17
+Day 13, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 13, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 13, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 13, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 13, Wednesday, Microwave: 20 minutes for 0.04
+Day 13, Wednesday, Stove: 15 minutes for 0.10
+Day 13, Wednesday, Oven: 45 minutes for 0.36
+Day 13, Wednesday, HVAC: 1439 minutes for 10.07
+Day 14, Thursday, Light Bulb: 3720 minutes for 0.45
+Day 14, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 14, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 14, Thursday, Living Room TV: 240 minutes for 0.31
+Day 14, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 14, Thursday, Microwave: 20 minutes for 0.04
+Day 14, Thursday, Stove: 15 minutes for 0.10
+Day 14, Thursday, Oven: 45 minutes for 0.36
+Day 14, Thursday, Dishwasher: 45 minutes for 0.16
+Day 14, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 14, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 14, Thursday, HVAC: 1439 minutes for 10.07
+Day 15, Friday, Light Bulb: 1620 minutes for 0.19
+Day 15, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 15, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 15, Friday, Living Room TV: 240 minutes for 0.31
+Day 15, Friday, Refrigerator: 1439 minutes for 0.43
+Day 15, Friday, Microwave: 20 minutes for 0.04
+Day 15, Friday, Stove: 15 minutes for 0.10
+Day 15, Friday, Oven: 45 minutes for 0.36
+Day 15, Friday, HVAC: 1439 minutes for 10.07
+Day 16, Saturday, Light Bulb: 7665 minutes for 0.92
+Day 16, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 16, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 16, Saturday, Living Room TV: 480 minutes for 0.61
+Day 16, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 16, Saturday, Microwave: 30 minutes for 0.07
+Day 16, Saturday, Stove: 30 minutes for 0.21
+Day 16, Saturday, Oven: 60 minutes for 0.48
+Day 16, Saturday, Dishwasher: 45 minutes for 0.16
+Day 16, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 16, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 16, Saturday, HVAC: 1439 minutes for 10.07
+Day 17, Sunday, Light Bulb: 10920 minutes for 1.31
+Day 17, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 17, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 17, Sunday, Living Room TV: 480 minutes for 0.61
+Day 17, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 17, Sunday, Microwave: 30 minutes for 0.07
+Day 17, Sunday, Stove: 30 minutes for 0.21
+Day 17, Sunday, Oven: 60 minutes for 0.48
+Day 17, Sunday, Dishwasher: 45 minutes for 0.16
+Day 17, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 17, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 17, Sunday, HVAC: 1439 minutes for 10.07
+Day 18, Monday, Light Bulb: 3675 minutes for 0.44
+Day 18, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 18, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 18, Monday, Living Room TV: 240 minutes for 0.31
+Day 18, Monday, Refrigerator: 1439 minutes for 0.43
+Day 18, Monday, Microwave: 20 minutes for 0.04
+Day 18, Monday, Stove: 15 minutes for 0.10
+Day 18, Monday, Oven: 45 minutes for 0.36
+Day 18, Monday, HVAC: 1439 minutes for 10.07
+Day 19, Tuesday, Light Bulb: 5415 minutes for 0.65
+Day 19, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 19, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 19, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 19, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 19, Tuesday, Microwave: 20 minutes for 0.04
+Day 19, Tuesday, Stove: 15 minutes for 0.10
+Day 19, Tuesday, Oven: 45 minutes for 0.36
+Day 19, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 19, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 19, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 19, Tuesday, HVAC: 1439 minutes for 10.07
+Day 20, Wednesday, Light Bulb: 1335 minutes for 0.16
+Day 20, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 20, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 20, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 20, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 20, Wednesday, Microwave: 20 minutes for 0.04
+Day 20, Wednesday, Stove: 15 minutes for 0.10
+Day 20, Wednesday, Oven: 45 minutes for 0.36
+Day 20, Wednesday, HVAC: 1439 minutes for 10.07
+Day 21, Thursday, Light Bulb: 4200 minutes for 0.50
+Day 21, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 21, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 21, Thursday, Living Room TV: 240 minutes for 0.31
+Day 21, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 21, Thursday, Microwave: 20 minutes for 0.04
+Day 21, Thursday, Stove: 15 minutes for 0.10
+Day 21, Thursday, Oven: 45 minutes for 0.36
+Day 21, Thursday, Dishwasher: 45 minutes for 0.16
+Day 21, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 21, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 21, Thursday, HVAC: 1439 minutes for 10.07
+Day 22, Friday, Light Bulb: 3255 minutes for 0.39
+Day 22, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 22, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 22, Friday, Living Room TV: 240 minutes for 0.31
+Day 22, Friday, Refrigerator: 1439 minutes for 0.43
+Day 22, Friday, Microwave: 20 minutes for 0.04
+Day 22, Friday, Stove: 15 minutes for 0.10
+Day 22, Friday, Oven: 45 minutes for 0.36
+Day 22, Friday, HVAC: 1439 minutes for 10.07
+Day 23, Saturday, Light Bulb: 11715 minutes for 1.41
+Day 23, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 23, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 23, Saturday, Living Room TV: 480 minutes for 0.61
+Day 23, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 23, Saturday, Microwave: 30 minutes for 0.07
+Day 23, Saturday, Stove: 30 minutes for 0.21
+Day 23, Saturday, Oven: 60 minutes for 0.48
+Day 23, Saturday, Dishwasher: 45 minutes for 0.16
+Day 23, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 23, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 23, Saturday, HVAC: 1439 minutes for 10.07
+Day 24, Sunday, Light Bulb: 15030 minutes for 1.80
+Day 24, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 24, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 24, Sunday, Living Room TV: 480 minutes for 0.61
+Day 24, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 24, Sunday, Microwave: 30 minutes for 0.07
+Day 24, Sunday, Stove: 30 minutes for 0.21
+Day 24, Sunday, Oven: 60 minutes for 0.48
+Day 24, Sunday, Dishwasher: 45 minutes for 0.16
+Day 24, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 24, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 24, Sunday, HVAC: 1439 minutes for 10.07
+Day 25, Monday, Light Bulb: 6510 minutes for 0.78
+Day 25, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 25, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 25, Monday, Living Room TV: 240 minutes for 0.31
+Day 25, Monday, Refrigerator: 1439 minutes for 0.43
+Day 25, Monday, Microwave: 20 minutes for 0.04
+Day 25, Monday, Stove: 15 minutes for 0.10
+Day 25, Monday, Oven: 45 minutes for 0.36
+Day 25, Monday, HVAC: 1439 minutes for 10.07
+Day 26, Tuesday, Light Bulb: 4050 minutes for 0.49
+Day 26, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 26, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 26, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 26, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 26, Tuesday, Microwave: 20 minutes for 0.04
+Day 26, Tuesday, Stove: 15 minutes for 0.10
+Day 26, Tuesday, Oven: 45 minutes for 0.36
+Day 26, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 26, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 26, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 26, Tuesday, HVAC: 1439 minutes for 10.07
+Day 27, Wednesday, Light Bulb: 3450 minutes for 0.41
+Day 27, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 27, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 27, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 27, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 27, Wednesday, Microwave: 20 minutes for 0.04
+Day 27, Wednesday, Stove: 15 minutes for 0.10
+Day 27, Wednesday, Oven: 45 minutes for 0.36
+Day 27, Wednesday, HVAC: 1439 minutes for 10.07
+Day 28, Thursday, Light Bulb: 7200 minutes for 0.86
+Day 28, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 28, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 28, Thursday, Living Room TV: 240 minutes for 0.31
+Day 28, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 28, Thursday, Microwave: 20 minutes for 0.04
+Day 28, Thursday, Stove: 15 minutes for 0.10
+Day 28, Thursday, Oven: 45 minutes for 0.36
+Day 28, Thursday, Dishwasher: 45 minutes for 0.16
+Day 28, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 28, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 28, Thursday, HVAC: 1439 minutes for 10.07
+Day 29, Friday, Light Bulb: 1845 minutes for 0.22
+Day 29, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 29, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 29, Friday, Living Room TV: 240 minutes for 0.31
+Day 29, Friday, Refrigerator: 1439 minutes for 0.43
+Day 29, Friday, Microwave: 20 minutes for 0.04
+Day 29, Friday, Stove: 15 minutes for 0.10
+Day 29, Friday, Oven: 45 minutes for 0.36
+Day 29, Friday, HVAC: 1439 minutes for 10.07
+Day 30, Saturday, Light Bulb: 14085 minutes for 1.69
+Day 30, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 30, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 30, Saturday, Living Room TV: 480 minutes for 0.61
+Day 30, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 30, Saturday, Microwave: 30 minutes for 0.07
+Day 30, Saturday, Stove: 30 minutes for 0.21
+Day 30, Saturday, Oven: 60 minutes for 0.48
+Day 30, Saturday, Dishwasher: 45 minutes for 0.16
+Day 30, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 30, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 30, Saturday, HVAC: 1439 minutes for 10.07
+Day 31, Sunday, Light Bulb: 9435 minutes for 1.13
+Day 31, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 31, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 31, Sunday, Living Room TV: 480 minutes for 0.61
+Day 31, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 31, Sunday, Microwave: 30 minutes for 0.07
+Day 31, Sunday, Stove: 30 minutes for 0.21
+Day 31, Sunday, Oven: 60 minutes for 0.48
+Day 31, Sunday, Dishwasher: 45 minutes for 0.16
+Day 31, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 31, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 31, Sunday, HVAC: 1439 minutes for 10.07
+Day 32, Monday, Light Bulb: 7785 minutes for 0.93
+Day 32, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 32, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 32, Monday, Living Room TV: 240 minutes for 0.31
+Day 32, Monday, Refrigerator: 1439 minutes for 0.43
+Day 32, Monday, Microwave: 20 minutes for 0.04
+Day 32, Monday, Stove: 15 minutes for 0.10
+Day 32, Monday, Oven: 45 minutes for 0.36
+Day 32, Monday, HVAC: 1439 minutes for 10.07
+Day 33, Tuesday, Light Bulb: 7605 minutes for 0.91
+Day 33, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 33, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 33, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 33, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 33, Tuesday, Microwave: 20 minutes for 0.04
+Day 33, Tuesday, Stove: 15 minutes for 0.10
+Day 33, Tuesday, Oven: 45 minutes for 0.36
+Day 33, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 33, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 33, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 33, Tuesday, HVAC: 1439 minutes for 10.07
+Day 34, Wednesday, Light Bulb: 7995 minutes for 0.96
+Day 34, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 34, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 34, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 34, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 34, Wednesday, Microwave: 20 minutes for 0.04
+Day 34, Wednesday, Stove: 15 minutes for 0.10
+Day 34, Wednesday, Oven: 45 minutes for 0.36
+Day 34, Wednesday, HVAC: 1439 minutes for 10.07
+Day 35, Thursday, Light Bulb: 2145 minutes for 0.26
+Day 35, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 35, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 35, Thursday, Living Room TV: 240 minutes for 0.31
+Day 35, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 35, Thursday, Microwave: 20 minutes for 0.04
+Day 35, Thursday, Stove: 15 minutes for 0.10
+Day 35, Thursday, Oven: 45 minutes for 0.36
+Day 35, Thursday, Dishwasher: 45 minutes for 0.16
+Day 35, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 35, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 35, Thursday, HVAC: 1439 minutes for 10.07
+Day 36, Friday, Light Bulb: 1530 minutes for 0.18
+Day 36, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 36, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 36, Friday, Living Room TV: 240 minutes for 0.31
+Day 36, Friday, Refrigerator: 1439 minutes for 0.43
+Day 36, Friday, Microwave: 20 minutes for 0.04
+Day 36, Friday, Stove: 15 minutes for 0.10
+Day 36, Friday, Oven: 45 minutes for 0.36
+Day 36, Friday, HVAC: 1439 minutes for 10.07
+Day 37, Saturday, Light Bulb: 9075 minutes for 1.09
+Day 37, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 37, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 37, Saturday, Living Room TV: 480 minutes for 0.61
+Day 37, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 37, Saturday, Microwave: 30 minutes for 0.07
+Day 37, Saturday, Stove: 30 minutes for 0.21
+Day 37, Saturday, Oven: 60 minutes for 0.48
+Day 37, Saturday, Dishwasher: 45 minutes for 0.16
+Day 37, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 37, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 37, Saturday, HVAC: 1439 minutes for 10.07
+Day 38, Sunday, Light Bulb: 9075 minutes for 1.09
+Day 38, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 38, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 38, Sunday, Living Room TV: 480 minutes for 0.61
+Day 38, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 38, Sunday, Microwave: 30 minutes for 0.07
+Day 38, Sunday, Stove: 30 minutes for 0.21
+Day 38, Sunday, Oven: 60 minutes for 0.48
+Day 38, Sunday, Dishwasher: 45 minutes for 0.16
+Day 38, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 38, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 38, Sunday, HVAC: 1439 minutes for 10.07
+Day 39, Monday, Light Bulb: 4935 minutes for 0.59
+Day 39, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 39, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 39, Monday, Living Room TV: 240 minutes for 0.31
+Day 39, Monday, Refrigerator: 1439 minutes for 0.43
+Day 39, Monday, Microwave: 20 minutes for 0.04
+Day 39, Monday, Stove: 15 minutes for 0.10
+Day 39, Monday, Oven: 45 minutes for 0.36
+Day 39, Monday, HVAC: 1439 minutes for 10.07
+Day 40, Tuesday, Light Bulb: 7935 minutes for 0.95
+Day 40, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 40, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 40, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 40, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 40, Tuesday, Microwave: 20 minutes for 0.04
+Day 40, Tuesday, Stove: 15 minutes for 0.10
+Day 40, Tuesday, Oven: 45 minutes for 0.36
+Day 40, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 40, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 40, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 40, Tuesday, HVAC: 1439 minutes for 10.07
+Day 41, Wednesday, Light Bulb: 5010 minutes for 0.60
+Day 41, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 41, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 41, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 41, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 41, Wednesday, Microwave: 20 minutes for 0.04
+Day 41, Wednesday, Stove: 15 minutes for 0.10
+Day 41, Wednesday, Oven: 45 minutes for 0.36
+Day 41, Wednesday, HVAC: 1439 minutes for 10.07
+Day 42, Thursday, Light Bulb: 2715 minutes for 0.33
+Day 42, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 42, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 42, Thursday, Living Room TV: 240 minutes for 0.31
+Day 42, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 42, Thursday, Microwave: 20 minutes for 0.04
+Day 42, Thursday, Stove: 15 minutes for 0.10
+Day 42, Thursday, Oven: 45 minutes for 0.36
+Day 42, Thursday, Dishwasher: 45 minutes for 0.16
+Day 42, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 42, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 42, Thursday, HVAC: 1439 minutes for 10.07
+Day 43, Friday, Light Bulb: 7185 minutes for 0.86
+Day 43, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 43, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 43, Friday, Living Room TV: 240 minutes for 0.31
+Day 43, Friday, Refrigerator: 1439 minutes for 0.43
+Day 43, Friday, Microwave: 20 minutes for 0.04
+Day 43, Friday, Stove: 15 minutes for 0.10
+Day 43, Friday, Oven: 45 minutes for 0.36
+Day 43, Friday, HVAC: 1439 minutes for 10.07
+Day 44, Saturday, Light Bulb: 11985 minutes for 1.44
+Day 44, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 44, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 44, Saturday, Living Room TV: 480 minutes for 0.61
+Day 44, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 44, Saturday, Microwave: 30 minutes for 0.07
+Day 44, Saturday, Stove: 30 minutes for 0.21
+Day 44, Saturday, Oven: 60 minutes for 0.48
+Day 44, Saturday, Dishwasher: 45 minutes for 0.16
+Day 44, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 44, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 44, Saturday, HVAC: 1439 minutes for 10.07
+Day 45, Sunday, Light Bulb: 4125 minutes for 0.49
+Day 45, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 45, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 45, Sunday, Living Room TV: 480 minutes for 0.61
+Day 45, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 45, Sunday, Microwave: 30 minutes for 0.07
+Day 45, Sunday, Stove: 30 minutes for 0.21
+Day 45, Sunday, Oven: 60 minutes for 0.48
+Day 45, Sunday, Dishwasher: 45 minutes for 0.16
+Day 45, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 45, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 45, Sunday, HVAC: 1439 minutes for 10.07
+Day 46, Monday, Light Bulb: 5295 minutes for 0.64
+Day 46, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 46, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 46, Monday, Living Room TV: 240 minutes for 0.31
+Day 46, Monday, Refrigerator: 1439 minutes for 0.43
+Day 46, Monday, Microwave: 20 minutes for 0.04
+Day 46, Monday, Stove: 15 minutes for 0.10
+Day 46, Monday, Oven: 45 minutes for 0.36
+Day 46, Monday, HVAC: 1439 minutes for 10.07
+Day 47, Tuesday, Light Bulb: 1200 minutes for 0.14
+Day 47, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 47, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 47, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 47, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 47, Tuesday, Microwave: 20 minutes for 0.04
+Day 47, Tuesday, Stove: 15 minutes for 0.10
+Day 47, Tuesday, Oven: 45 minutes for 0.36
+Day 47, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 47, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 47, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 47, Tuesday, HVAC: 1439 minutes for 10.07
+Day 48, Wednesday, Light Bulb: 1005 minutes for 0.12
+Day 48, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 48, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 48, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 48, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 48, Wednesday, Microwave: 20 minutes for 0.04
+Day 48, Wednesday, Stove: 15 minutes for 0.10
+Day 48, Wednesday, Oven: 45 minutes for 0.36
+Day 48, Wednesday, HVAC: 1439 minutes for 10.07
+Day 49, Thursday, Light Bulb: 7500 minutes for 0.90
+Day 49, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 49, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 49, Thursday, Living Room TV: 240 minutes for 0.31
+Day 49, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 49, Thursday, Microwave: 20 minutes for 0.04
+Day 49, Thursday, Stove: 15 minutes for 0.10
+Day 49, Thursday, Oven: 45 minutes for 0.36
+Day 49, Thursday, Dishwasher: 45 minutes for 0.16
+Day 49, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 49, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 49, Thursday, HVAC: 1439 minutes for 10.07
+Day 50, Friday, Light Bulb: 2295 minutes for 0.28
+Day 50, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 50, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 50, Friday, Living Room TV: 240 minutes for 0.31
+Day 50, Friday, Refrigerator: 1439 minutes for 0.43
+Day 50, Friday, Microwave: 20 minutes for 0.04
+Day 50, Friday, Stove: 15 minutes for 0.10
+Day 50, Friday, Oven: 45 minutes for 0.36
+Day 50, Friday, HVAC: 1439 minutes for 10.07
+Day 51, Saturday, Light Bulb: 5685 minutes for 0.68
+Day 51, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 51, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 51, Saturday, Living Room TV: 480 minutes for 0.61
+Day 51, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 51, Saturday, Microwave: 30 minutes for 0.07
+Day 51, Saturday, Stove: 30 minutes for 0.21
+Day 51, Saturday, Oven: 60 minutes for 0.48
+Day 51, Saturday, Dishwasher: 45 minutes for 0.16
+Day 51, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 51, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 51, Saturday, HVAC: 1439 minutes for 10.07
+Day 52, Sunday, Light Bulb: 12975 minutes for 1.56
+Day 52, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 52, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 52, Sunday, Living Room TV: 480 minutes for 0.61
+Day 52, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 52, Sunday, Microwave: 30 minutes for 0.07
+Day 52, Sunday, Stove: 30 minutes for 0.21
+Day 52, Sunday, Oven: 60 minutes for 0.48
+Day 52, Sunday, Dishwasher: 45 minutes for 0.16
+Day 52, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 52, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 52, Sunday, HVAC: 1439 minutes for 10.07
+Day 53, Monday, Light Bulb: 5025 minutes for 0.60
+Day 53, Monday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 53, Monday, Master Bedroom TV: 120 minutes for 0.02
+Day 53, Monday, Living Room TV: 240 minutes for 0.31
+Day 53, Monday, Refrigerator: 1439 minutes for 0.43
+Day 53, Monday, Microwave: 20 minutes for 0.04
+Day 53, Monday, Stove: 15 minutes for 0.10
+Day 53, Monday, Oven: 45 minutes for 0.36
+Day 53, Monday, HVAC: 1439 minutes for 10.07
+Day 54, Tuesday, Light Bulb: 4515 minutes for 0.54
+Day 54, Tuesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 54, Tuesday, Master Bedroom TV: 120 minutes for 0.02
+Day 54, Tuesday, Living Room TV: 240 minutes for 0.31
+Day 54, Tuesday, Refrigerator: 1439 minutes for 0.43
+Day 54, Tuesday, Microwave: 20 minutes for 0.04
+Day 54, Tuesday, Stove: 15 minutes for 0.10
+Day 54, Tuesday, Oven: 45 minutes for 0.36
+Day 54, Tuesday, Dishwasher: 45 minutes for 0.16
+Day 54, Tuesday, Clothes Washer: 30 minutes for 0.03
+Day 54, Tuesday, Clothes Dryer: 30 minutes for 0.18
+Day 54, Tuesday, HVAC: 1439 minutes for 10.07
+Day 55, Wednesday, Light Bulb: 7650 minutes for 0.92
+Day 55, Wednesday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 55, Wednesday, Master Bedroom TV: 120 minutes for 0.02
+Day 55, Wednesday, Living Room TV: 240 minutes for 0.31
+Day 55, Wednesday, Refrigerator: 1439 minutes for 0.43
+Day 55, Wednesday, Microwave: 20 minutes for 0.04
+Day 55, Wednesday, Stove: 15 minutes for 0.10
+Day 55, Wednesday, Oven: 45 minutes for 0.36
+Day 55, Wednesday, HVAC: 1439 minutes for 10.07
+Day 56, Thursday, Light Bulb: 5625 minutes for 0.67
+Day 56, Thursday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 56, Thursday, Master Bedroom TV: 120 minutes for 0.02
+Day 56, Thursday, Living Room TV: 240 minutes for 0.31
+Day 56, Thursday, Refrigerator: 1439 minutes for 0.43
+Day 56, Thursday, Microwave: 20 minutes for 0.04
+Day 56, Thursday, Stove: 15 minutes for 0.10
+Day 56, Thursday, Oven: 45 minutes for 0.36
+Day 56, Thursday, Dishwasher: 45 minutes for 0.16
+Day 56, Thursday, Clothes Washer: 30 minutes for 0.03
+Day 56, Thursday, Clothes Dryer: 30 minutes for 0.18
+Day 56, Thursday, HVAC: 1439 minutes for 10.07
+Day 57, Friday, Light Bulb: 2190 minutes for 0.26
+Day 57, Friday, Bath Exhaust Fan: 120 minutes for 0.01
+Day 57, Friday, Master Bedroom TV: 120 minutes for 0.02
+Day 57, Friday, Living Room TV: 240 minutes for 0.31
+Day 57, Friday, Refrigerator: 1439 minutes for 0.43
+Day 57, Friday, Microwave: 20 minutes for 0.04
+Day 57, Friday, Stove: 15 minutes for 0.10
+Day 57, Friday, Oven: 45 minutes for 0.36
+Day 57, Friday, HVAC: 1439 minutes for 10.07
+Day 58, Saturday, Light Bulb: 12735 minutes for 1.53
+Day 58, Saturday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 58, Saturday, Master Bedroom TV: 240 minutes for 0.05
+Day 58, Saturday, Living Room TV: 480 minutes for 0.61
+Day 58, Saturday, Refrigerator: 1439 minutes for 0.43
+Day 58, Saturday, Microwave: 30 minutes for 0.07
+Day 58, Saturday, Stove: 30 minutes for 0.21
+Day 58, Saturday, Oven: 60 minutes for 0.48
+Day 58, Saturday, Dishwasher: 45 minutes for 0.16
+Day 58, Saturday, Clothes Washer: 30 minutes for 0.03
+Day 58, Saturday, Clothes Dryer: 30 minutes for 0.18
+Day 58, Saturday, HVAC: 1439 minutes for 10.07
+Day 59, Sunday, Light Bulb: 2310 minutes for 0.28
+Day 59, Sunday, Bath Exhaust Fan: 180 minutes for 0.01
+Day 59, Sunday, Master Bedroom TV: 240 minutes for 0.05
+Day 59, Sunday, Living Room TV: 480 minutes for 0.61
+Day 59, Sunday, Refrigerator: 1439 minutes for 0.43
+Day 59, Sunday, Microwave: 30 minutes for 0.07
+Day 59, Sunday, Stove: 30 minutes for 0.21
+Day 59, Sunday, Oven: 60 minutes for 0.48
+Day 59, Sunday, Dishwasher: 45 minutes for 0.16
+Day 59, Sunday, Clothes Washer: 30 minutes for 0.03
+Day 59, Sunday, Clothes Dryer: 30 minutes for 0.18
+Day 59, Sunday, HVAC: 1439 minutes for 10.07
+Electric - Total time on: 9075.20 hours | Total usage: 6102.71 watt | Total electrical cost: 732.32

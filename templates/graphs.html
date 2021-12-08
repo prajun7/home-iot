@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description">
+  <meta name="author" content="Webpixels">
+  <title>Smart Home </title>
+  <!-- Smart Home Tab Icon -->
+  <link rel="icon" href="../static/img/icons/appIcon/smartHome.png" type="image/png">
+
+  <!-- Home CSS -->
+  <link rel="stylesheet" href="../static/css/home.css">
+    <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="../static/libs/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- Page CSS -->
+  <link rel="stylesheet" href="../static/libs/fullcalendar/dist/fullcalendar.min.css">
+  <!-- Purpose CSS -->
+  <link rel="stylesheet" href="../static/css/home.css">
+  <link rel="stylesheet" href="../static/css/graph.css">
+  <link rel="stylesheet" href="../static/css/timeline.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" ></script>
+  <script type="text/javascript" src="../static/js/timeline.js"></script>
+
+
+
+</head>
+
+<body class="application application-offset" style="background-color: #D3D3D3;">
+  <div class="container-fluid container-application">
+
+  <!-- Content -->
+   <div class="main-content position-relative">
+    <!-- Main nav -->
+    <nav class="navbar navbar-horizontal navbar-expand-lg bg-dark" style="background-color: #6C6C6C;" id="navbar-main" >
+      <div class="container-fluid">
+        <!-- Brand + Toggler (for mobile devices) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar nav -->
+        <div class="collapse navbar-collapse navbar-collapse-fade" id="navbar-main-collapse">
+          <ul class="navbar-nav align-items-lg-center">
+            <!-- Overview  -->
+            <li class="nav-item d-lg-none ">
+              <a class="nav-link" href="../index.html">
+                Overview
+              </a>
+            </li>
+            <li class="border-top opacity-2 my-2"></li>
+            <!-- Home  -->
+            <li class="nav-item ">
+              <a class="nav-link pl-lg-0" href="{{url_for('home')}}">
+                Home
+              </a>
+            </li>
+            <!-- Graphs  -->
+            <li class="nav-item ">
+              <a class="nav-link pl-lg-0" href="{{url_for('graphs')}}">
+                Graphs
+              </a>
+            </li>
+            <!-- Utility  -->
+            <li class="nav-item ">
+              <a class="nav-link pl-lg-0" href="{{url_for('utility')}}">
+                Utility
+              </a>
+            </li>
+            <li class="border-top opacity-2 my-2"></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+  <div class="page-content">
+      <!-- Page title -->
+      <div class="row">
+        <div class="col-xl-4 col-md-4">
+          <div class="card card">
+            <div class="card-header">
+              <h6 class="mb-0">Bi-Monthly Usages</h6>
+            </div>
+            <div class="card-body">
+
+              <!-- Chart -->
+              <!-- <div id="graph"></div> -->
+
+<!--
+              <div id="apex-line" data-color="primary"></div>
+
+            </script> -->
+
+            <!-- Line Chart Implementation -->
+            <center>
+
+
+             <canvas id="myChart2" width="300" height="400"></canvas>
+             <script>
+
+             const ctx = document.getElementById('myChart2').getContext('2d');
+           const myChart2 = new Chart(ctx, {
+               type: 'line',
+               data: {
+                   labels: [
+                     {% for item in labels %}
+                     "{{ item }}",
+                   {% endfor %}
+
+                   ],
+
+                   datasets: [{
+                       label: 'Usages',
+                       data: [
+                         {% for item in values %}
+                             {{ item }},
+                           {% endfor %}],
+                       backgroundColor: [
+                         'rgba(255, 99, 132, 1)',
+                         'rgba(54, 162, 235, 1)',
+                         'rgba(255, 205, 86, 1)',
+                         'rgba(75, 192, 192, 0.2)',
+                         'rgba(54, 162, 235, 0.2)',
+                         'rgba(153, 102, 255, 0.2)',
+                         'rgba(201, 203, 207, 0.2)',
+                       ],
+                       borderColor: [
+                         'rgb(0, 0, 0)',
+                         'rgb(54, 162, 235)',
+                         'rgb(255, 205, 86)',
+                         'rgb(75, 192, 192)',
+                         'rgb(54, 162, 235)',
+                         'rgb(153, 102, 255)',
+                         'rgb(201, 203, 207)'
+                       ],
+                       borderWidth: 1,
+                       order: 1
+                   },{
+                       label: 'Water',
+                       data: [
+                        ],
+                       backgroundColor: [
+                         'rgba(255, 99, 132, 1)',
+                         'rgba(54, 162, 235, 1)',
+                         'rgba(255, 205, 86, 1)',
+                         'rgba(75, 192, 192, 0.2)',
+                         'rgba(54, 162, 235, 0.2)',
+                         'rgba(153, 102, 255, 0.2)',
+                         'rgba(201, 203, 207, 0.2)',
+                       ],
+                       borderColor: [
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(75, 192, 192)',
+                         'rgb(54, 162, 235)',
+                         'rgb(153, 102, 255)',
+                         'rgb(201, 203, 207)'
+                       ],
+                       borderWidth: 1,
+                       order: 1
+                   },{
+                       label: 'Heater',
+                       data: [
+                         ],
+                       backgroundColor: [
+                         'rgba(255, 99, 132, 1)',
+                         'rgba(54, 162, 235, 1)',
+                         'rgba(255, 205, 86, 1)',
+                         'rgba(75, 192, 192, 0.2)',
+                         'rgba(54, 162, 235, 0.2)',
+                         'rgba(153, 102, 255, 0.2)',
+                         'rgba(201, 203, 207, 0.2)',
+                       ],
+                       borderColor: [
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(75, 192, 192)',
+                         'rgb(54, 162, 235)',
+                         'rgb(153, 102, 255)',
+                         'rgb(201, 203, 207)'
+                       ],
+                       borderWidth: 1,
+                       order: 1
+                   }]
+               },
+               options: {
+                 indexAxis: 'y',
+                   scales: {
+                       x: {
+                           beginAtZero: true
+                       }
+                   }
+               }
+           });
+             </script>
+           </center>
+           <!-- Line Chart Implementation Ends -->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-md-6">
+        <div class="card card">
+          <div class="card-header">
+            <h6 class="mb-0">Bi-Monthly Costs</h6>
+          </div>
+        <div class="card-body">
+          <br>
+
+          <center>
+            <!-- Bar Chart Implementation -->
+            <canvas id="BarChart" width="300" height="400"></canvas>
+            <script>
+              //<canvas id="BarChart" width="300" height="400"></canvas>
+             const bctx = document.getElementById('BarChart').getContext('2d');
+            const BarChart = new Chart(bctx, {
+               type: 'bar',
+               data: {
+                   labels: [
+                     {% for item in labels %}
+                     "{{ item }}",
+                   {% endfor %}
+
+                   ],
+
+
+                   datasets: [{
+                       label: 'Usages',
+                       data: [
+                         {% for item in line_values %}
+                             {{ item }},
+                           {% endfor %}],
+                       backgroundColor: [
+                         'rgba(255, 99, 132, 1)',
+                         'rgba(54, 162, 235, 1)',
+                         'rgba(255, 205, 86, 1)',
+                         'rgba(75, 192, 192, 0.2)',
+                         'rgba(54, 162, 235, 0.2)',
+                         'rgba(153, 102, 255, 0.2)',
+                         'rgba(201, 203, 207, 0.2)',
+                       ],
+                       borderColor: [
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(75, 192, 192)',
+                         'rgb(54, 162, 235)',
+                         'rgb(153, 102, 255)',
+                         'rgb(201, 203, 207)'
+                       ],
+                       borderWidth: 1,
+                       order: 1
+                   },{
+                       label: 'Water',
+                       data: [
+                        ],
+                       backgroundColor: [
+                         'rgba(255, 99, 132, 1)',
+                         'rgba(54, 162, 235, 1)',
+                         'rgba(255, 205, 86, 1)',
+                         'rgba(75, 192, 192, 0.2)',
+                         'rgba(54, 162, 235, 0.2)',
+                         'rgba(153, 102, 255, 0.2)',
+                         'rgba(201, 203, 207, 0.2)',
+                       ],
+                       borderColor: [
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(75, 192, 192)',
+                         'rgb(54, 162, 235)',
+                         'rgb(153, 102, 255)',
+                         'rgb(201, 203, 207)'
+                       ],
+                       borderWidth: 1,
+                       order: 1
+                   },{
+                       label: 'Heater',
+                       data: [
+                         ],
+                       backgroundColor: [
+                         'rgba(255, 99, 132, 1)',
+                         'rgba(54, 162, 235, 1)',
+                         'rgba(255, 205, 86, 1)',
+                         'rgba(75, 192, 192, 0.2)',
+                         'rgba(54, 162, 235, 0.2)',
+                         'rgba(153, 102, 255, 0.2)',
+                         'rgba(201, 203, 207, 0.2)',
+                       ],
+                       borderColor: [
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(0, 0, 0)',
+                         'rgb(75, 192, 192)',
+                         'rgb(54, 162, 235)',
+                         'rgb(153, 102, 255)',
+                         'rgb(201, 203, 207)'
+                       ],
+                       borderWidth: 1,
+                       order: 1
+                   }]
+               },
+               options: {
+                 indexAxis: 'x',
+                   scales: {
+                       y: {
+                           beginAtZero: true
+                       }
+                   }
+               }
+           });
+            </script>
+          </center>
+          <!-- Bar Chart Implementation Ends-->
+
+        </div>
+        </div>
+      </div>
+
+      <!-- START: Expense and Usage-->
+    <div class="col-xl-4 col-md-6">
+    <div class="card card">
+      <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <h6 class="mb-0">Bi-Monthly Expenses Total </h6>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="list-group-item list-group-item-action">
+                <div class="media align-items-center">
+                  <div class="media-body">
+                    <h6 class="text-sm d-block text-limit mb-0">Electricity Bill</h6>
+                    <span class="d-block text-sm text-muted">Dollars</span>
+                  </div>
+                  <div class="media-body text-right">
+                    <span class="text-sm text-dark font-weight-bold ml-3">
+                        <p> ${{elecCost}} </p>   <!-- Insert Totals -->
+                    </span>
+                  </div>
+                </div>
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action">
+                  <div class="media align-items-center">
+                    <div class="media-body">
+                      <h6 class="text-sm d-block text-limit mb-0">Water Bill</h6>
+                      <span class="d-block text-sm text-muted">Dollars</span>
+                    </div>
+                    <div class="media-body text-right">
+                      <span class="text-sm text-dark font-weight-bold ml-3">
+                        <p> ${{waterCost}} </p> <!-- Insert Totals -->
+                      </span>
+                    </div>
+                  </div>
+          </a>
+
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="media align-items-center">
+              <div class="media-body">
+                <h6 class="text-sm d-block text-limit mb-0">Heating Bill</h6>
+                <span class="d-block text-sm text-muted">Dollars</span>
+              </div>
+              <div class="media-body text-right">
+                <span class="text-sm text-dark font-weight-bold ml-3">
+                  <div class = "costElec" >
+                    <p> ${{heaterCost}} </p>   <!-- Insert Totals -->
+                   </div>
+                </span>
+              </div>
+            </div>
+    </a>
+
+
+          <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <h6 class="mb-0">Bi-Monthly Usages Total</h6>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="list-group-item list-group-item-action">
+                    <div class="media align-items-center">
+                      <div class="media-body">
+                        <h6 class="text-sm d-block text-limit mb-0">Electricity</h6>
+                        <span class="d-block text-sm text-muted">Watts</span>
+                      </div>
+                      <div class="media-body text-right">
+                        <span class="text-sm text-dark font-weight-bold ml-3">
+                          <p>{{elecUsage}}</p> <!-- Insert Totals -->
+                        </span>
+                      </div>
+                    </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+                      <div class="media align-items-center">
+                        <div class="media-body">
+                          <h6 class="text-sm d-block text-limit mb-0">Water</h6>
+                          <span class="d-block text-sm text-muted">Gallons</span>
+                        </div>
+                        <div class="media-body text-right">
+                          <span class="text-sm text-dark font-weight-bold ml-3">
+                            <p>{{waterUsage}}</p> <!-- Insert Totals -->
+                          </span>
+                        </div>
+                      </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                        <div class="media align-items-center">
+                          <div class="media-body">
+                            <h6 class="text-sm d-block text-limit mb-0">Heater</h6>
+                            <span class="d-block text-sm text-muted">Watts</span>
+                          </div>
+                          <div class="media-body text-right">
+                            <span class="text-sm text-dark font-weight-bold ml-3">
+                              <p>{{heaterUsage}}</p> <!-- Insert Totals -->
+                            </span>
+                          </div>
+                        </div>
+                </a>
+
+                  </div>
+                  </div>
+
+          </div>
+          <!-- END: Expense and Usage-->
+
+          <section>
+            <div class="card card">
+              <div class="card-header">
+                <h6 class="mb-0">Month 1 Timeline Expenses</h6>
+              </div>
+            <div class="card-body">
+              <div class="rt-container">
+                    <div class="col-rt-12">
+                        <div class="Scriptcontent">
+
+               <!-- partial:index.partial.html -->
+          <ul class="timeline">     <!--Electricicty and Water Expenses-->
+          	<li ="1"  data-text="Power: ${{i[0][2]}}  Water: ${{wC[0][2]}}">1</li>
+          	<li ="2"  data-text="Power: ${{i[1][2]}}  Water: ${{wC[1][2]}}">2</li>
+          	<li ="3"  data-text="Power: ${{i[2][2]}}  Water: ${{wC[2][2]}}">3</li>
+          	<li ="4"  data-text="Power: ${{i[3][2]}}  Water: ${{wC[3][2]}}">4</li>
+          	<li ="5"  data-text="Power: ${{i[4][2]}}  Water: ${{wC[4][2]}}">5</li>
+            <li ="6"  data-text="Power: ${{i[5][2]}}  Water: ${{wC[5][2]}}">6</li>
+          	<li ="7"  data-text="Power: ${{i[6][2]}}  Water: ${{wC[6][2]}}">7</li>
+            <li ="8"  data-text="Power: ${{i[7][2]}}  Water: ${{wC[7][2]}}">8</li>
+          	<li ="9"  data-text="Power: ${{i[8][2]}}  Water: ${{wC[8][2]}}">9</li>
+          	<li ="10" data-text="Power: ${{i[9][2]}}  Water: ${{wC[9][2]}}">10</li>
+          	<li ="11" data-text="Power: ${{i[10][2]}}  Water: ${{wC[10][2]}}">11</li>
+          	<li ="12" data-text="Power: ${{i[11][2]}}  Water: ${{wC[11][2]}}">12</li>
+            <li ="13" data-text="Power: ${{i[12][2]}}  Water: ${{wC[12][2]}}">13</li>
+          	<li ="14" data-text="Power: ${{i[13][2]}}  Water: ${{wC[13][2]}}">14</li>
+            <li ="15" data-text="Power: ${{i[14][2]}}  Water: ${{wC[14][2]}}">15</li>
+          	<li ="16" data-text="Power: ${{i[15][2]}}  Water: ${{wC[15][2]}}">16</li>
+          	<li ="17" data-text="Power: ${{i[16][2]}}  Water: ${{wC[16][2]}}">17</li>
+          	<li ="18" data-text="Power: ${{i[17][2]}}  Water: ${{wC[17][2]}}">18</li>
+          	<li ="19" data-text="Power: ${{i[18][2]}}  Water: ${{wC[18][2]}}">19</li>
+            <li ="20" data-text="Power: ${{i[19][2]}}  Water: ${{wC[19][2]}}">20</li>
+          	<li ="21" data-text="Power: ${{i[20][2]}}  Water: ${{wC[20][2]}}">21</li>
+            <li ="22" data-text="Power: ${{i[21][2]}}  Water: ${{wC[21][2]}}">22</li>
+            <li ="23" data-text="Power: ${{i[22][2]}}  Water: ${{wC[22][2]}}">23</li>
+            <li ="24" data-text="Power: ${{i[23][2]}}  Water: ${{wC[23][2]}}">24</li>
+            <li ="25" data-text="Power: ${{i[24][2]}}  Water: ${{wC[24][2]}}">25</li>
+            <li ="26" data-text="Power: ${{i[25][2]}}  Water: ${{wC[25][2]}}">26</li>
+            <li ="27" data-text="Power: ${{i[26][2]}}  Water: ${{wC[26][2]}}">27</li>
+            <li ="28" data-text="Power: ${{i[27][2]}}  Water: ${{wC[27][2]}}">28</li>
+            <li ="29" data-text="Power: ${{i[28][2]}}  Water: ${{wC[28][2]}}">29</li>
+            <li ="30" data-text="Power: ${{i[29][2]}}  Water: ${{wC[29][2]}}">30</li>
+            <li ="31" data-text="Power: ${{i[30][2]}}  Water: ${{wC[30][2]}}">31</li>
+          </ul>
+          <!-- partial -->
+
+              		</div>
+          		</div>
+              </div>
+            </div>
+
+          </section>
+          <section>
+            <div class="card card">
+              <div class="card-header">
+                <h6 class="mb-0">Month 2 Timeline Expenses</h6>
+              </div>
+            <div class="card-body">
+              <div class="rt-container">
+                    <div class="col-rt-12">
+                        <div class="Scriptcontent">
+
+          <ul class="timeline"><!--Electricicty and Water Expenses-->
+          	<li ="1"  data-text="Power: ${{i[31][2]}}  Water: ${{wC[31][2]}}">1</li>
+          	<li ="2"  data-text="Power: ${{i[32][2]}}  Water: ${{wC[32][2]}}">2</li>
+          	<li ="3"  data-text="Power: ${{i[33][2]}}  Water: ${{wC[33][2]}}">3</li>
+          	<li ="4"  data-text="Power: ${{i[34][2]}}  Water: ${{wC[34][2]}}">4</li>
+          	<li ="5"  data-text="Power: ${{i[35][2]}}  Water: ${{wC[35][2]}}">5</li>
+            <li ="6"  data-text="Power: ${{i[36][2]}}  Water: ${{wC[36][2]}}">6</li>
+          	<li ="7"  data-text="Power: ${{i[37][2]}}  Water: ${{wC[37][2]}}">7</li>
+            <li ="8"  data-text="Power: ${{i[38][2]}}  Water: ${{wC[38][2]}}">8</li>
+          	<li ="9"  data-text="Power: ${{i[39][2]}}  Water: ${{wC[39][2]}}">9</li>
+          	<li ="10" data-text="Power: ${{i[40][2]}}  Water: ${{wC[40][2]}}">10</li>
+          	<li ="11" data-text="Power: ${{i[41][2]}}  Water: ${{wC[41][2]}}">11</li>
+          	<li ="12" data-text="Power: ${{i[42][2]}}  Water: ${{wC[42][2]}}">12</li>
+            <li ="13" data-text="Power: ${{i[43][2]}}  Water: ${{wC[43][2]}}">13</li>
+          	<li ="14" data-text="Power: ${{i[44][2]}}  Water: ${{wC[44][2]}}">14</li>
+            <li ="15" data-text="Power: ${{i[45][2]}}  Water: ${{wC[45][2]}}">15</li>
+          	<li ="16" data-text="Power: ${{i[46][2]}}  Water: ${{wC[46][2]}}">16</li>
+          	<li ="17" data-text="Power: ${{i[47][2]}}  Water: ${{wC[47][2]}}">17</li>
+          	<li ="18" data-text="Power: ${{i[48][2]}}  Water: ${{wC[48][2]}}">18</li>
+          	<li ="19" data-text="Power: ${{i[49][2]}}  Water: ${{wC[49][2]}}">19</li>
+            <li ="20" data-text="Power: ${{i[50][2]}}  Water: ${{wC[50][2]}}">20</li>
+          	<li ="21" data-text="Power: ${{i[51][2]}}  Water: ${{wC[51][2]}}">21</li>
+            <li ="22" data-text="Power: ${{i[55][2]}}  Water: ${{wC[52][2]}}">22</li>
+            <li ="23" data-text="Power: ${{i[53][2]}}  Water: ${{wC[53][2]}}">23</li>
+            <li ="24" data-text="Power: ${{i[54][2]}}  Water: ${{wC[54][2]}}">24</li>
+            <li ="25" data-text="Power: ${{i[55][2]}}  Water: ${{wC[55][2]}}">25</li>
+            <li ="26" data-text="Power: ${{i[56][2]}}  Water: ${{wC[56][2]}}">26</li>
+            <li ="27" data-text="Power: ${{i[57][2]}}  Water: ${{wC[57][2]}}">27</li>
+            <li ="28" data-text="Power: ${{i[58][2]}}  Water: ${{wC[58][2]}}">28</li>
+          </ul>
+          <!-- partial -->
+
+              		</div>
+          		</div>
+              </div>
+            </div>
+
+          </section>
+
+
+          <!-- Download Electric Text File Button Implementation -->
+          <a href="../static/js/electric.txt" class="btn btn-primary btn-lg" download>Download Electricity Usage Breakdown</a>
+          <!-- Download Electric Text File Button Implementation ends -->
+
+          <!-- Download Water Text File Button Implementation -->
+          <a href="../static/js/water.txt" class="btn btn-primary btn-lg" download>Download Water Usage Breakdown</a>
+          <!-- Download Water Text File Button Implementation ends -->
+
+          <!-- Download Heat Text File Button Implementation -->
+          <a href="../static/js/heater.txt" class="btn btn-primary btn-lg" download>Download Heater Usage Breakdown</a>
+          <!-- Download Heat Text File Button Implementation ends -->
+
+
+
+  </div>
+  </div>
+  </div>
+  <!-- Scripts -->
+  <!-- Core JS - includes jquery, bootstrap, popper, in-view and sticky-kit -->
+  <script src="../static/js/home.core.js"></script>
+  <!-- Page JS -->
+  <script src="../static/libs/moment/min/moment.min.js"></script>
+  <script src="../static/libs/fullcalendar/dist/fullcalendar.min.js"></script>
+  <!-- Purpose JS -->
+  <script src="../static/js/home.js"></script>
+  <!-- Demo JS - remove it when starting your project -->
+  <script src="../static/js/demo.js"></script>
+
+
+</body>
+</html>
